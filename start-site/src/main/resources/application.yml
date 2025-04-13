@@ -13,7 +13,6 @@ management:
         include:
           - health
           - info
-
 server:
   compression:
     enabled: true
@@ -22,6 +21,7 @@ server:
   error:
     include-message: always
   forward-headers-strategy: native
+  port: 50413
 
 spring:
   jackson:
